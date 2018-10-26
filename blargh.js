@@ -1,6 +1,7 @@
 //10.25.2018
-//based:https://mathiasbynens.be/notes/es6-const
 
+//PRT I: Object.freeze and const
+//:https://mathiasbynens.be/notes/es6-const
 const myFunc = {};
 myFunc.bar = 42;
 var firstProj = document.getElementById("Item01");
@@ -14,3 +15,5 @@ fork.bar = 42;
 console.log(fork.bar);
 
 //this way there is a 'sloppy' error that at least shows something
+
+alert(fork.bar + ":Check console")
