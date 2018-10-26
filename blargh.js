@@ -15,5 +15,3 @@ fork.bar = 42;
 console.log(fork.bar);
 
 //this way there is a 'sloppy' error that at least shows something
-
-alert(fork.bar + ":Check console")
